@@ -32,17 +32,19 @@ nav{ /* Cractéristiques de la nav avec lien autres pages */
     display: flex;
     height: 70vh;
     width: 100vw;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .texte{ /* Cractéristiques du premier texte */
-    width: 50vw;
-    height: 70vh;
+    width: 50%;
+    height: 70%;
+    padding: 2em;
 }
 
 .texte2{ /* Cractéristiques du deuxième texte */
-    width: 50vw;
-    height: 70vh;
+    width: 50%;
+    height: 70%;
+    padding: 2em;
 }
 
 
@@ -70,18 +72,18 @@ footer{ /* Cractéristiques du footer avec lien de référence */
     .article{ /* Modifications de l'ensemble des textes */
         display: flex;
         flex-direction: column;
-        height: 80vh;
+        height: 90vh;
         width: 100vw;
         font-size: x-large;
     }
     .texte{ /* Modifications du premier texte */
-        width: 100vw;
-        height: 40vh;
+        width: 90%;
+        padding: 1em;
     }
     
     .texte2{ /* Modifications du deuxièmre texte */
-        width: 100vw;
-        height: 40vh;
+        width: 90%;
+        padding: 1em;
     }
     
 }
