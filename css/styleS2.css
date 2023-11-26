@@ -28,15 +28,23 @@ nav{ /* Cractéristiques de la nav avec lien autres pages */
 }
 
 .liste{ /* Cractéristiques du texte */
+    min-width: 25vw;
     border-radius: 50px;
     border-style: solid;
     align-items: center;
+    padding: 1em;
+}
+
+span{
+    color: green;
 }
 
 .texte{ /* Cractéristiques du texte */
+    min-width: 42vw;
     border-radius: 20px;
     border-style: solid;
     align-items: center;
+    padding: 1em;
 }
 
 .ide{ /* Cractéristiques de l'image du personnage */
@@ -53,26 +61,25 @@ footer{ /* Cractéristiques du footer avec lien de référence */
     align-items: flex-end;
 }
 
-@media screen and (max-width: 1024px){ /* Cractéristiques de la page sur téléphone */
+@media screen and (max-width: 1300px){ /* Cractéristiques de la page sur téléphone et tablette */
+    nav{ /* Modifications de la nav avec lien autres pages */
+        background-color: rgb(12, 19, 12);
+        height: 5vh;
+        font-size: large;
+    }
     .article{ /* Modifications de l'ensemble des textes */
         display: flex;
         flex-direction: column;
         min-height: 80vh;
         width: 100vw;
-        font-size: x-large;
-    }
-    .texte{ /* Modifications du texte */
-        width: 100vw;
-        min-height: 40vh;
+        font-size: large;
     }
     .ide{ /* Modifications de l'image du personnage */
         display: flex;
-        align-items: flex-end;
+        justify-content: center;
     }
 }
 
-
-
-ul{
+ol{
     list-style-type: none; /* enlève les points de la liste désordonnées */
 }
